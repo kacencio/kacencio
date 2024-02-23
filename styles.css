@@ -1,7 +1,27 @@
+header {
+    background-color: #7e7bb0;
+    padding: 6vh;
+    margin: 0;
+    width: 110%;
+    
+}
+
+body {
+    background-color: #01123e;
+}
+
 .parent {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 10px;
+    }
+
+    .child {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
     }
