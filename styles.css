@@ -3,7 +3,27 @@ header {
     padding: 6vh;
     margin: 0;
     width: 110%;
-    
+    font-size: 4vh;
+}
+
+footer {
+background-color: white;
+}
+
+h1 {
+font-size: 8vh;
+text-align: center;
+margin-top: 28vh;
+}
+
+p {
+    text-align: center;
+    font-size: 4vh;
+}
+
+* {
+    color: white;
+    font-family:'DM Sans';
 }
 
 body {
