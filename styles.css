@@ -3,27 +3,38 @@
     font-family:'DM Sans';
 }
 
-header {
+.header {
+    position: fixed;
     background-color: #7e7bb0;
-    padding: 6vh;
-    margin: 0;
-    width: 110%;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
     font-size: 4vh;
+    text-align: center;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
 }
 
-footer {
-background-color: white;
-}
+.footer {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: #e3ddd3;
+    color: white;
+    text-align: center;
+    color: #7d7362
+  }
 
 h1 {
 font-size: 8vh;
 text-align: center;
-margin-top: 28vh;
+margin-top: 45vh;
 }
 
-p {
+.nicetomeetyou {
     text-align: center;
     font-size: 4vh;
+    margin-bottom: 100vh;
 }
 
 body {
