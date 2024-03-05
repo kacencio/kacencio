@@ -1,9 +1,10 @@
 * {
     color: white;
     font-family:'DM Sans';
+    margin: 0;
 }
 
-.header {
+header {
     position: fixed;
     background-color: #050067;
     padding-top: 8vh;
@@ -14,6 +15,16 @@
     left: 0;
     z-index: 999;
     width: 100%;
+}
+
+a {
+    font-size: 3vh;
+    color: rgb(255, 255, 255);
+    opacity: 90%;
+    text-shadow: 0px 0px 10px rgb(0, 255, 183);
+    padding: 2vh;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .darkdropfade {
@@ -38,10 +49,11 @@
 .footer {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    background-color: #e3ddd3;
+    background-color: #000000;
     color: white;
     text-align: center;
-    color: #7d7362
+    color: white
+    
   }
 
 h1 {
@@ -58,7 +70,7 @@ h2 {
 
 .nicetomeetyou {
     text-align: center;
-    font-size: 4vh;
+    font-size: 3vh;
     margin-bottom: 100vh;
     text-shadow: 0px 0px 7px rgb(255, 255, 255);
     color: transparent;
