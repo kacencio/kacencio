@@ -27,9 +27,11 @@ a {
     text-decoration: none;
 }
 
-.zoom-out {
-    transform: scale(0.5);
-    transform-origin: top;
+.site {
+    transform: scale(0.7);
+    transform-origin: top left;
+    width: 135%;
+    height: 100vh; 
 }
 
 .darkdropfade {
@@ -91,11 +93,12 @@ body {
     grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 10px;
-    margin-top: 20vh;
+    margin-top: 0vh;
+    margin: 10vh;
     }
 
     .child {
-        padding: 20px;
+        padding-right: 5px;
         font-size: 30px;
         text-align: center;
         font-size: 3vh;
