@@ -63,10 +63,6 @@ a {
     
   }
 
-.art {
-width: 50%;
-}
-
 h1 {
 font-size: 8vh;
 text-align: center;
@@ -107,3 +103,8 @@ body {
         text-align: center;
         font-size: 3vh;
     }
+
+.art {
+    max-width: 60vh;
+    padding-bottom: 30vh;
+}
