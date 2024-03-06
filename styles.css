@@ -99,6 +99,7 @@ body {
 
     .child {
         padding-right: 5px;
+        padding-bottom: 10vh;
         font-size: 30px;
         text-align: center;
         font-size: 3vh;
@@ -106,5 +107,6 @@ body {
 
 .art {
     max-width: 60vh;
-    padding-bottom: 30vh;
+    box-shadow: 0px 0px 15px rgb(0, 255, 179);
+    position: relative;
 }
