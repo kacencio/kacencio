@@ -27,6 +27,23 @@ a {
     text-decoration: none;
 }
 
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgb(122, 255, 167);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: rgb(197, 255, 204);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  </style>
+
 .site {
     transform: scale(0.7);
     transform-origin: top left;
@@ -43,6 +60,13 @@ a {
     color: rgb(255, 255, 255);
 }
 
+.hobbies {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 6vh;
+}
 
 .parallax {
     background-image: url("bg.png");
@@ -84,6 +108,11 @@ h3 {
     margin-right: 60vh;
     margin-bottom: 70vh;
     margin-top: 10vh
+}
+
+h4 {
+    padding:10vh;
+    margin: 15vh;
 }
 
 p {
