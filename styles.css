@@ -8,7 +8,7 @@ header {
     position: fixed;
     background-color: #050067;
     padding-top: 3vh;
-    padding-bottom: 4vh;
+    padding-bottom: 6vh;
     font-size: 4vh;
     text-align: center;
     top: 0;
@@ -42,7 +42,9 @@ a:link {
     background-color: transparent;
     text-decoration: underline;
   }
-  </style>
+
+  
+
 
 
 .darkdropfade {
@@ -151,3 +153,31 @@ body {
     box-shadow: 1px 1px 20px rgb(0, 255, 213);
     position: relative;
 }
+
+
+
+
+.music-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.artist {
+    text-align: center;
+}
+
+.artist-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff; 
+    transition: transform 0.3s ease;
+    margin-top: 15vh;
+}
+
+.artist-image:hover {
+    transform: scale(1.1); 
