@@ -68,6 +68,13 @@ a:link {
     padding-bottom: 6vh;
 }
 
+li {
+text-align: center;
+padding-right: 5vh;
+padding-top: 1vh;
+list-style-position: inside;
+}
+
 .parallax {
     background-image: url("bg.png");
     height: 100%;
@@ -136,13 +143,20 @@ body {
     background-color: #01123e;
 }
 
+.floatleft {
+    float: left;
+    margin-right: 3vh;
+    box-shadow: 0px 0px 15px rgb(0, 212, 177);
+}
+
+
 .parent {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 10px;
-    margin-top: 0vh;
-    margin: 10vh;
+    margin: 10vh auto;
     display: grid;
+    max-width: 130vh;
     }
 
 .parentinline {
