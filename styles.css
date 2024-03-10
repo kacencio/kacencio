@@ -27,11 +27,6 @@ a {
     text-decoration: none;
 }
 
-a:link {
-    color: rgb(56, 63, 156);
-    background-color: transparent;
-    text-decoration: none;
-  }
   a:hover {
     color: rgb(122, 255, 167);
     background-color: transparent;
